@@ -10,12 +10,11 @@ require_once "class/Form2d.php";
      }
     
      public function perimeter(){
-         $result= ($this->lenght+$this->widht)*2;
-         return $result;
+         return ($this->lenght+$this->widht)*2;
      }
      public function aire(){
-         $resultaire= $this->lenght * $this->widht;
-         return $resultaire;
+         return ($this->lenght * $this->widht);
+       
      }
 
 

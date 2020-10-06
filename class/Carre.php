@@ -4,27 +4,18 @@
 
     public function __construct($a)
     {
-        $this->lenght=$a;
+        parent::__construct($a,$a);
 
     }
-    public function perimeter(){
-        $result= $this->lenght*4;
-        return $result;
-    }
-    public function aire()
-    {
-        $resultaire=$this->lenght * $this->lenght;
-        return $resultaire;
-    }
+    
+
+
+
+
+
+
+
+
  }
-
-
-
-
-
-
-
-
-
 
 ?>
