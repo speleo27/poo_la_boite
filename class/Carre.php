@@ -4,7 +4,7 @@
 
     public function __construct($a)
     {
-        $this->length=$a;
+        $this->lenght=$a;
 
     }
     public function perimeter(){

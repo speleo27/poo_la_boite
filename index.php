@@ -11,6 +11,7 @@
     echo $ra->aire();
     hr();
     $ca=new Carre(5.6);
+    
     echo $ca->perimeter();
     hr();
     echo $ca->aire();
